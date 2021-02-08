@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #dedede;
+}
+p {
+    font: 14px "Microsoft Yahei";
+}
+.p_em {
+    text-indent: 2em;
+}
+.header {
+    height: 50px;
+    padding-top: 10px;
+    background-color: #333333;
+}
+.header img {
+    float: left;
+    margin-left: 50px;
+}
+.header ul li {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font: 12px "Microsoft Yahei";
+}
+.main {
+    height: 2580px;
+}
+.mainone {
+    height: 850px;
+}
+.mainleft1 {
+    float: left;
+    width: 830px;
+    height: 760px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    padding: 35px 20px;
+}
+.mainleft1 a {
+    color: #1403cb;
+}
+h1 {
+    color: #000b17;
+}
+h2 {
+    color: #524f56;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h4 {
+    color: #a7a7a5;
+    margin-bottom: 20px;
+}
+#img {
+    margin: 20px 0px 10px 0px;
+}
+.mainleft2 {
+    width: 830px;
+    height: 660px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    padding: 35px 20px;
+}
+.mainleft2 a {
+    color: #1403cb;
+}
+.mainleft2 ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.mainleft3 {
+    width: 830px;
+    height: 360px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    padding: 35px 20px;
+}
+.p_box_big {
+    display: flex;
+    width: 640px;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.p_box_small {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #cbcbcb;
+}
+.p_box_small h5 {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.p_box_small img {
+    display: block;
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+}
+.mainleft4 {
+    width: 830px;
+    height: 410px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    padding: 35px 20px;
+}
+.mainleft4 ol li {
+    font-weight: 550;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+.mainleft4 table {
+    border: 1px solid #d3d3d3;
+    border-spacing: 0px;
+    width: 750px;
+    height: 140px;
+    font: 14px "Microsoft Yahei";
+}
+.mainleft4 table th {
+    border: 1px solid #d3d3d3;
+    padding: 2px;
+    color: #f1f2ec;
+    background-color: #333333;
+    text-align: left;
+}
+.mainleft4 table td {
+    border: 1px solid #d3d3d3;
+    padding: 4px;
+}
+#lasttr {
+    font-weight: 700;
+    background-color: #cccccc;
+}
+.mainleft4 table td a {
+    color: #695a85;
+}
+.mainright {
+    width: 480px;
+    height: 530px;
+    float: right;
+    border: 1px solid #878787;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    padding: 35px 20px;
+}
+.mainright h1 {
+    display: inline-block;
+    color: #cecece;
+}
+.mainright h3 {
+    display: inline-block;
+}
+.colone {
+    text-align: right;
+}
+.mainright table {
+    border-spacing: 15px;
+}
+.mainright table p {
+    font: 12px "Microsoft Yahei";
+    color: #bebebe;
+    margin-top: 10px;
+}
+.mainright table td {
+    font: 14px "Microsoft Yahei";
+    color: #0e0910;
+}
+#email {
+    padding-bottom: 25px;
+}
+#password {
+    padding-bottom: 25px;
+}
+textarea {
+    width: 270px;
+    height: 140px;
+    font: 18px "Microsoft Yahei";
+    font-weight: 500;
+}
+#discribe {
+    padding-bottom: 120px;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    background-color: #3355d1;
+    border-radius: 10px;
+}
+.footer {
+    height: 70px;
+    background-color: #000000;
+    padding-top: 15px;
+}
+.footer img {
+    display: block;
+    width: 66px;
+    margin: 0 auto ;
+}
